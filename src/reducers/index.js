@@ -1,7 +1,7 @@
-import { combineReducers } from 'redux';
+import {combineReducers} from 'redux';
 
 import accounts from 'reducers/accounts';
 
-export default combineReducers ({
-  accounts
+export default combineReducers({
+    accounts
 });
