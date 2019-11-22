@@ -1,0 +1,11 @@
+{
+  "/api": {
+    "target": "http://api.flagly.co",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api": ""
+    },
+    "logLevel": "debug"
+  }
+}
